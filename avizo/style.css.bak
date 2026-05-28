@@ -1,0 +1,29 @@
+/* Общий фон "таблетки" */
+window {
+    background-color: rgba(20, 20, 28, 0.85); /* #14141C с прозрачностью */
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Текст внутри (проценты) */
+label {
+    color: #9AA2C5; /* Приглушенный серо-голубой */
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 24px;
+}
+
+/* Иконка громкости */
+image {
+    color: #80A8EB; /* Акцентный голубой */
+}
+
+/* Индикатор уровня (горизонтальная полоска) */
+progressbar trough {
+    background-color: rgba(128, 168, 235, 0.2); /* Акцентный с прозрачностью */
+    border-radius: 10px;
+}
+
+progressbar progress {
+    background-color: #80A8EB; /* Акцентный голубой */
+    border-radius: 10px;
+}
